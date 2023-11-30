@@ -16,7 +16,21 @@ int main(){
 		cout<<"b) Inspeccionar el estudio"<<endl;
 		cout<<"e) Salir"<<endl;
 		cin>>secuenciaDeDecisiones[0];
-	}while(false); //opcionValida
+		switch (secuenciaDeDecisiones[0]){
+			case 'a':
+				cout<<"Encuentras sangre bajo una alfombra"<<endl;
+			break;
+			case 'b':
+				cout<<"Un estudio viejo con muchas telaranias. En la mesa hay un par de libros y una pecera vacia"<<endl;
+			break;
+			case 'e':
+				salir=true;
+			break;
+			default:
+				cout<<"Elige una opcion valida"<<endl;
+				opcionValida=false;
+		}
+	}while(false);
 	
 	
 	
