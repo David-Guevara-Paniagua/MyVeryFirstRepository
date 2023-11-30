@@ -60,7 +60,7 @@ int main(){
 		cout<<"a) Analizar la muestra"<<endl;
 		cout<<"b) Inspeccionar el patio frontal"<<endl;
 		cout<<"e) Salir"<<endl;
-		switch (secuenciaDeDecisiones[1]){
+		switch (secuenciaDeDecisiones[2]){
 			case 'a':
 				cout<<"La muestra pertenece a Janea Doe, desaparecida"<<endl;
 			break;
@@ -82,7 +82,7 @@ int main(){
 		cout<<"a) Descansar"<<endl;
 		cout<<"b) Subir el codigo del Aaron por cuarta vez"<<endl;
 		cout<<"e) Salir"<<endl;
-		switch (secuenciaDeDecisiones[1]){
+		switch (secuenciaDeDecisiones[3]){
 			case 'a':
 				cout<<"Recargas toda tu energia"<<endl;
 			break;
@@ -104,7 +104,7 @@ int main(){
 		cout<<"a) Seguir el rastro de la desaparecida"<<endl;
 		cout<<"b) Jugar football americano"<<endl;
 		cout<<"e) Salir"<<endl;
-		switch (secuenciaDeDecisiones[1]){
+		switch (secuenciaDeDecisiones[4]){
 			case 'a':
 				cout<<"Descubres que recientemente habia tenido trato con una persona llamada Michael Fields"<<endl;
 			break;
@@ -126,7 +126,7 @@ int main(){
 		cout<<"a) Investigar a Michael Fields"<<endl;
 		cout<<"b) Ver el partido de basketball"<<endl;
 		cout<<"e) Salir"<<endl;
-		switch (secuenciaDeDecisiones[1]){
+		switch (secuenciaDeDecisiones[5]){
 			case 'a':
 				cout<<"Resulta ser el secuestrador de Jane Doe. Resolviste el caso"<<endl;
 			break;
