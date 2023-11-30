@@ -54,6 +54,28 @@ int main(){
 		}
 	}while(!salir && !opcionValida);
 	
+	//Tercer menu
+	do{
+		cout<<"Que haces ahora?"<<endl;
+		cout<<"a) Analizar la muestra"<<endl;
+		cout<<"b) Inspeccionar el patio frontal"<<endl;
+		cout<<"e) Salir"<<endl;
+		switch (secuenciaDeDecisiones[1]){
+			case 'a':
+				cout<<"La muestra pertenece a Janea Doe, desaparecida"<<endl;
+			break;
+			case 'b':
+				cout<<"Encuentras un jardin bien cuidado, pero nada que destacar"<<endl;
+			break;
+			case 'e':
+				salir=true;
+			break;
+			default:
+				cout<<"Elige una opcion valida"<<endl;
+				opcionValida=false;
+		}
+	}while(!salir && !opcionValida);
+	
 	
 	
 	
