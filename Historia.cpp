@@ -98,6 +98,27 @@ int main(){
 		}
 	}while(!salir && !opcionValida);
 	
+	//Quinto menu
+	do{
+		cout<<"Que haces ahora?"<<endl;
+		cout<<"a) Seguir el rastro de la desaparecida"<<endl;
+		cout<<"b) Jugar football americano"<<endl;
+		cout<<"e) Salir"<<endl;
+		switch (secuenciaDeDecisiones[1]){
+			case 'a':
+				cout<<"Descubres que recientemente habia tenido trato con una persona llamada Michael Fields"<<endl;
+			break;
+			case 'b':
+				cout<<"Descubres que tienes grandes habilidades en este juego"<<endl;
+			break;
+			case 'e':
+				salir=true;
+			break;
+			default:
+				cout<<"Elige una opcion valida"<<endl;
+				opcionValida=false;
+		}
+	}while(!salir && !opcionValida);
 	
 	return 0;
 }
