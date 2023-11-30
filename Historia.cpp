@@ -76,7 +76,27 @@ int main(){
 		}
 	}while(!salir && !opcionValida);
 	
-	
+	//Cuarto menu
+	do{
+		cout<<"Que haces ahora?"<<endl;
+		cout<<"a) Descansar"<<endl;
+		cout<<"b) Subir el codigo del Aaron por cuarta vez"<<endl;
+		cout<<"e) Salir"<<endl;
+		switch (secuenciaDeDecisiones[1]){
+			case 'a':
+				cout<<"Recargas toda tu energia"<<endl;
+			break;
+			case 'b':
+				cout<<"Subes el codigo. Una labor menos."<<endl;
+			break;
+			case 'e':
+				salir=true;
+			break;
+			default:
+				cout<<"Elige una opcion valida"<<endl;
+				opcionValida=false;
+		}
+	}while(!salir && !opcionValida);
 	
 	
 	return 0;
