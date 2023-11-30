@@ -120,5 +120,27 @@ int main(){
 		}
 	}while(!salir && !opcionValida);
 	
+	//Sexto menu
+	do{
+		cout<<"Que haces ahora?"<<endl;
+		cout<<"a) Investigar a Michael Fields"<<endl;
+		cout<<"b) Ver el partido de basketball"<<endl;
+		cout<<"e) Salir"<<endl;
+		switch (secuenciaDeDecisiones[1]){
+			case 'a':
+				cout<<"Resulta ser el secuestrador de Jane Doe. Resolviste el caso"<<endl;
+			break;
+			case 'b':
+				cout<<"Un excelente juego. Tu equipo suma una victoria"<<endl;
+			break;
+			case 'e':
+				salir=true;
+			break;
+			default:
+				cout<<"Elige una opcion valida"<<endl;
+				opcionValida=false;
+		}
+	}while(!salir && !opcionValida);
+	
 	return 0;
 }
